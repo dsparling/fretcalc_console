@@ -1,0 +1,75 @@
+v 0.17 (Jan 15, 2005)
+  + Added FretCalculator::setDulcHalfFrets - pass vector
+    containing half fret numbers to this method.
+  + Added 'd' (dulcimer) and 'a' (additional half frets) to
+    default input file (.fretcalc)
+
+v 0.16 (Jan 15, 2005)
+  + Added 'p' (precision) and 'c' (custom frets per octave) 
+    default input file (.fretcalc)
+
+v 0.15 (Jan 12, 2005)
+  + Separated declaration and implementation of FretCalculator
+    class into FretCalculator.h and FretCalculator.cpp
+  + Modified Makefile
+  + Moved flag validation to mutator methods
+
+v 0.14 (Jan 10, 2005)
+  + Added default configuration file ability (.fretcalc)
+
+v 0.13 (Jan 06, 2005)
+  + Changed int variables to bool
+    + print_help 
+    + print_version
+    + print_warranty
+    + verbose
+    + is_dulcimer
+    + out_file
+    + s_found
+    + n_found
+  + Changed location of loop counter (i) declaration in param_init()
+
+v 0.12 (Jan 05, 2005)
+  + Code now OO - FretCalcultor class
+
+v 0.11 (Dec 28, 2004)
+  + added iomanip
+
+v 0.10 (Dec 28, 2004)
+  + Changed code from C to C++
+
+v 0.09 (Sep 29, 2004)
+  + Added -c (custom) - number of frets per octave which allows
+    non 12-tone calcuations. Non dulcimer calc only.
+
+v 0.08 (Sep 25, 2004)
+  + fixed bug dulc_calc that caused half frets 7 and above to not calculate 
+  + -o will now write half frets to output file
+
+v 0.07 (Sep 24, 2004)
+  + -a now accpets multiple half frets separated by commas
+  + -a now accepts 0+ (-a 0)
+
+v 0.06 (Sep 24, 2004)
+  + Added -a option which allows user to request half fret for dulcimer
+
+v 0.05 (Sep 22, 2004)
+  + Fixed bug in -p (was settting num_frets_val)
+  + Check that argument value isn't another argument flag
+
+v 0.04 (Sep 22, 2004)
+  + Added dulc_calc() function and -d argument
+  + Renamed calc_frets() to frets_calc()
+  + Removed verbose print statements from write_calc()
+ 
+v 0.03 (Sep 22, 2004)
+  + Added MAX_FRETS (100)
+  + Added calc_frets() function
+
+v 0.02 (Sep 21, 2004)
+  + Added ChangeLog
+  + Added -p arg for precision of decimal.
+
+v 0.01 (Sep 20, 2004) 
+  + Initial Release
+

@@ -1,0 +1,26 @@
+TODO list:
+
+ - allow user selectable config file (-i?)
+ - add default/selectable config file parsing to FretCalculator
+ - or sub in main
+ - add fret-to-fret calculation
+ - add single fret calculation
+ - add "highest fret number" for dulcimer either in 
+   conjuntion with or to replace number of frets
+   (highest fret number and number of frets aren't the same
+    if "+" frets are included)
+ - add conversion between metric and enlish systems
+ - add fractions (nearest 1/64")
+ - add old rule of 18 and Sloan 
+ - allow user to name output file
+ - allow user to set max number frets
+ - use vector instead of MAX_FRETS
+ - allow common scale lengths (enter 'fender' instead of 25.5)
+ - nicer formatting of output
+ - use getopt (flags with no values [-d] must come first)
+   currently can't combine flags (-oV)
+ - GUI
+ - change Makefile to write binary to directory in $PATH
+ - man page
+ - combine print_calc() and write_calc()
+ - combine frets_calc() and ducl_calc()
