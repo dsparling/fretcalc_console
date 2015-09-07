@@ -400,7 +400,7 @@ void FretCalculator::printVersion()
 
 void FretCalculator::printWarranty()
 {
-  cout << "  Copyright (c) 1996--2005 by" << endl;
+  cout << "  Copyright (c) 1996--2015 by" << endl;
   cout << "  Douglas S Sparling <doug@dougsparling.com>" << endl;
   cout << endl;
   cout << "    This program is free software; you can redistribute it and/or" << endl;
@@ -417,5 +417,5 @@ void FretCalculator::printWarranty()
  cout << "the Free Software Foundation, Inc., 59 Temple Place - Suite 330," << endl;
   cout << "Boston, MA 02111-1307, USA." << endl;
   cout << endl << endl;
-  cout << "Report bugs to doug@dougsparling.com." << endl;
+  cout << "Report bugs to doug.sparling@gmail.com." << endl;
 }
