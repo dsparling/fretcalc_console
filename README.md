@@ -3,23 +3,25 @@ fretcalc
 
 fretcalc is a simple console fret calculator for Linux.
 
-LICENSE
-=======
+License
+-------
 
 GNU/GPL copying rules apply, see COPYING
 
-COMPILATION
-===========
+Compilation
+-----------
 
 Go into fretcalc source directory and type 'make'.
 It should compile without errors.
 
-INSTALLATION
-============
+Installation
+------------
+
 Currently running make will produce a single binary in the source directory. You may put it anywhere you want. 
 
-RUNNING
-=======
+Running
+-------
+
     $fretcalc -n <num_frets> -s <scale_length>
     
     OPTIONS: 
@@ -39,7 +41,8 @@ RUNNING
         -w, --warranty            show warranty and copyright
 
 FILES
-=====
+-----
+
     ./.fretcalc        Users fretcalc configuration.
         n=<num_frets> - required
         s=<scale_length> - required	
